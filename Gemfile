@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 gem 'rails'
 gem 'puma'
 gem 'sass-rails'
@@ -11,6 +10,16 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'cucumber'
+gem 'rails_12factor'
+gem 'bootstrap-sass'
+gem 'devise'
+gem 'httparty'
+gem 'paperclip'
+gem 'rest-client'
+gem 'searchkick'
+gem 'will_paginate'
+gem 'themoviedb'
+gem 'dotenv-rails'
 
 group :development, :test do
 	gem 'rspec'
@@ -37,14 +46,4 @@ group :production do
 	gem 'pg'
 end
 
-gem 'rails_12factor'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'bootstrap-sass'
-gem 'devise'
-gem 'httparty'
-gem 'paperclip'
-gem 'rest-client'
-gem 'searchkick'
-gem 'will_paginate'
-gem 'themoviedb'
-gem 'dotenv-rails'
